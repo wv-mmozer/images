@@ -1,0 +1,17 @@
+{
+  "name": "parse.image.sizes",
+  "version": "1.0.0",
+  "dependencies": {
+    "cluster": "^0.7.7",
+    "es6-promise-pool": "^2.4.4",
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "lodash": "^4.6.1",
+    "probe-image-size": "^2.1.0",
+    "q": "^1.4.1",
+    "mocha": "^2.1.0",
+    "moment": "^2.9.0",
+    "proxyquire": "^1.4.0",
+    "shortid": "^2.2.1"
+  }
+}
