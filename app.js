@@ -2,7 +2,7 @@
 
 const express = require('express');
 const app = express();
-const images = require('./parse-image-dimensions');
+const images = require('./process-865-image-resolutions');
 
 app.get('/', (req, res) => {
     images.parse865Images()
@@ -19,3 +19,6 @@ var server = app.listen(9001, function () {
 });
 
 
+process.on('uncaughtException', function (err) {
+    console.log(err);
+});
